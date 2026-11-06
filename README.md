@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # J.A.R.V.I.S. - readable edition
 
 **ID: `504m522o414p43484q522o323032362o4l41525649532o303031`**
@@ -261,3 +262,7 @@ ID: `504m522o414p43484q522o323032362o4l41525649532o303031`
 Contact me: **prakhar2507000@gmail.com**
 
 Ideas, fixes and upgrade suggestions are welcome.
+=======
+# J.A.R.V.I.S
+a vibe cosed jarvis
+>>>>>>> 734044d3fae312bd0bcc0fd47be957a77404a10d
