@@ -1,0 +1,103 @@
+================================================================
+  J.A.R.V.I.S.   -   READ THIS FIRST
+================================================================
+
+A NOTE FROM ME
+--------------
+I am Prakhar. I built JARVIS.
+
+ID      : 504m522o414p43484q522o323032362o4l41525649532o303031
+Contact : prakhar2507000@gmail.com
+
+The ID is deliberately veiled. I am not printing the method here. I have
+shared the source so you can read it, learn from it and make it your own;
+if you open the code, you will find the answer there.
+
+================================================================
+  THREE STEPS - IN ORDER
+================================================================
+
+  STEP 1  (Windows)   double-click
+                      1. START ME ONCE FIRST (IF ON WINDOWS).bat
+  STEP 2  (macOS)     right-click
+                      2. START ME ONCE FIRST (IF ON MAC).command
+  STEP 3  (everyone)  read this file 3. READ ME FIRST.txt
+
+You only need ONE of step 1 or step 2, depending on your computer.
+There is no separate "click me first" file on purpose: the two numbered
+launchers above already do the whole job.
+
+WINDOWS
+-------
+1. Double-click:   1. START ME ONCE FIRST (IF ON WINDOWS).bat
+2. Give it a moment while it creates your private settings folder and
+   checks the optional extras. Some extras may be skipped; JARVIS still
+   runs.
+3. JARVIS opens. After that you can double-click JARVIS.py directly.
+
+If Windows blocks the .bat file: right-click it > Properties > tick
+"Unblock" > OK, then double-click again.
+
+MAC
+---
+1. Right-click:   2. START ME ONCE FIRST (IF ON MAC).command
+2. Choose "Open" (macOS blocks unsigned scripts the first time).
+3. If macOS says "permission denied", open Terminal in this folder and run:
+
+       chmod +x "2. START ME ONCE FIRST (IF ON MAC).command"
+
+   then double-click it again.
+
+ANY COMPUTER WITH PYTHON 3.9+
+-----------------------------
+Open a terminal in this folder and run:
+
+       python JARVIS.py
+
+================================================================
+  WHAT I HAVE PUT IN THIS FOLDER
+================================================================
+    1. START ME ONCE FIRST (IF ON WINDOWS).bat
+                                    Windows one-click setup + start
+    2. START ME ONCE FIRST (IF ON MAC).command
+                                    macOS one-click setup + start
+    3. READ ME FIRST.txt            this note
+    JARVIS.py                       the front door
+    jarvis_setup.py                 the setup script the launchers call
+    Dependency/                     all 23 readable source modules
+    requirements.txt                optional extras
+    README.md                       my full guide
+    FINGERPRINT.txt                 my ownership record
+
+Please do NOT share the private settings folder that appears on your
+Desktop (it is called "JARVIS"). It holds your settings, your cloud
+endpoint and your phone token.
+
+================================================================
+  iOS / ANDROID COMPANION
+================================================================
+Python and Tkinter cannot run on iOS, so I built the honest alternative:
+JARVIS hosts a small web app on your Wi-Fi and your phone opens it like
+an app.
+
+1. Start JARVIS on the computer.
+2. Settings > Phone Link > copy the http://<ip>:8765/?k=... link.
+3. Open it in Safari, then Share > Add to Home Screen.
+
+The phone gets text chat, the same British voice, dictation where Safari
+supports it, a full-screen standalone layout, and safe-area support for
+the notch and home bar. Every API call still needs the pairing token.
+I did not fake "native iOS": I gave you the closest honest thing.
+
+================================================================
+  BEFORE YOU SHARE THIS BUILD
+================================================================
+Please never upload:
+    - your Desktop "JARVIS" folder (your private settings)
+    - any API keys, tokens or passwords
+    - the "do not share" folder
+
+Read README.md for my full public/private list and the security model.
+
+ID: 504m522o414p43484q522o323032362o4l41525649532o303031
+Contact me: prakhar2507000@gmail.com

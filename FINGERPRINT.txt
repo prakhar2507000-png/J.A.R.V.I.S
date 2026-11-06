@@ -1,0 +1,36 @@
+FINGERPRINT
+===========
+
+ID      : 504m522o414p43484q522o323032362o4l41525649532o303031
+Owner   : 416p63686q72204n616273
+Contact : prakhar2507000@gmail.com
+
+The ID and the owner are deliberately veiled. I am not printing the method
+here; if you read the source, you will find it, and you will have earned it.
+
+SHARE THIS
+----------
+Share the whole `J.A.R.V.I.S` folder.
+
+PLEASE DO NOT SHARE
+-------------------
+1. Your Desktop `JARVIS` folder.
+   It holds private settings, cloud endpoint, pairing token, Easter-egg
+   ledger, security log and quarantine.
+2. The `do not share` folder.
+   It holds the sealed private backup, build key reference, screenshots
+   and debug scratch files.
+3. Any file that contains an API key, password or token.
+
+PRE-UPLOAD CHECK
+----------------
+Run this from the folder above `J.A.R.V.I.S`:
+
+    python -c "import pathlib,re;root=pathlib.Path('J.A.R.V.I.S');
+    pat=re.compile(r'(sk-[A-Za-z0-9]{20,}|AKIA[0-9A-Z]{16}|api[_-]?key\\s*=\\s*[\\'\\\"][^\\'\\\"]{8,}|password\\s*=\\s*[\\'\\\"][^\\'\\\"]{4,}|C:\\\\\\\\Users\\\\\\\\|D:\\\\\\\\Anchor)',re.I);
+    print([str(p) for p in root.rglob('*') if p.is_file() and p.suffix in ('.py','.md','.txt','.json','.bat','.command','.sh') and pat.search(p.read_text(encoding='utf-8',errors='ignore'))])"
+
+An empty list means no obvious secret or private path was found.
+
+ID: 504m522o414p43484q522o323032362o4l41525649532o303031
+Contact me: prakhar2507000@gmail.com

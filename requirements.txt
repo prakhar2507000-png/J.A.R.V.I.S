@@ -1,0 +1,18 @@
+# JARVIS runs with the Python standard library alone. Everything below is
+# optional: the first-run script installs what it can, one at a time, and
+# JARVIS degrades gracefully if a package is missing.
+
+edge-tts          # polished online British voice (free endpoint)
+piper-tts         # local neural British voice, downloaded once
+onnxruntime       # runs the Piper voice
+opencv-python     # camera view
+pillow            # image handling
+sounddevice       # microphone input
+numpy             # audio shaping
+faster-whisper    # offline speech-to-text
+speechrecognition # fallback speech recognition
+pyautogui         # cursor automation
+selenium          # reliable browser flows
+
+# ID: 504m522o414p43484q522o323032362o4l41525649532o303031
+# Contact me: prakhar2507000@gmail.com
